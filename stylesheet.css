@@ -6,122 +6,200 @@
 
 header
 {
-
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(dino.jpg);
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(images/PR.jpg);
+  height: 75vh;
   background-size: cover;
   background-position: center;
   position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   z-index: -2;
+  overflow: hidden;
 }
 
 .main-nav
 {
   float:right;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .main-nav li
 {
-  margin-top: 35px;
   display: inline-block;
 }
 
 .main-nav li a
 {
-  color: #F7DC6F;
+  color: white;
   text-decoration: none;
   padding: 10px 20px;
   font-family: monospace;
-  font-size: 25px;
-}
-.main-nav li.active a
-{
-  border: 1px solid #F7DC6F;
+  font-size: 20px;
 }
 
-.main-nav li a:hover
+.main-nav li.active a
 {
-  border: 1px solid #F7DC6F;
+  border: 1px solid #66FCF1;
+}
+
+.self
+{
+  text-align: center;
 }
 
 .hero
 {
-  position: fixed;
-  z-index: -1;
-  text-align: center;
-
-  margin-left: 30px;
-  margin-top: 0px;
-}
-
-h1
-{
-  color: #F7DC6F;
-  text-transform: uppercase;
-  font-size: 90px;
-  text-align: center;
-  margin-top: 550px;
-  font-family: monospace;
-}
-h4
-{
-  color: #F7DC6F;
-  font-size: 30px;
-  text-align: center;
-  font-family: monospace;
-}
-
-.about
-{
-  background: #F7DC6F;
-  z-index: 1;
-}
-.about h2
-{
-  padding-top: 25px;
-  color: #616161  ;
-  font-size: 50px;
-  text-align: center;
-  font-family: monospace;
-  text-transform: uppercase;
-}
-.about p
-{
-  margin-left: 40px;
-  margin-right: 40px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 30px;
-  color: #616161;
-  font-size: 20px;
-  font-family: monospace;
-}
-
-.pics
-{
+    font-size: 20px;3
+    font-family: monospace;
+    font-weight: lighter;
     text-align: center;
+    color: #c5c6c7;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.hero h4
+{
+  padding-top: 80px;
+  font-size: 40px;
+  color: #66FCF1
+}
+.hero p
+{
+  padding-top: 20px;
+  line-height: 60px;
+  font-weight: lighter;
+  font-family: monospace;
+  text-align: left;
 }
 
-.pics img
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.containerb {
+  width: 100%; /* Full width */
+  background-color: #c5c6c7; /* Grey background */
+}
+
+.skill
+{
+  padding-bottom: 50px;
+  background-color: #1f2833;
+  color:  #c5c6c7;
+  padding-top: 50px;
+  text-align: center;
+  height: 100%;
+
+}
+
+.skills {
+  background-color: #1f2833;
+  text-align: right; /* Right-align text */
+  padding: 15px; /* Add some padding */
+  color:  #c5c6c7; /* White text color */
+}
+
+.skill h2
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+.html { width: 90%; background-color: #66FCF1;} /* Green */
+.css {width: 80%; background-color: #66FCF1;} /* Blue */
+.java {width: 65%; background-color: #66FCF1;} /* Red */
+.cpp {width: 60%; background-color: #66FCF1;} /* Dark Grey */
+
+.gallery
 {
   padding-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 5vw);
+  grid-gap: 15px;
+}
+.projects
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(images/PR2.jpg);
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -2;
+  overflow: hidden;
 }
 
-  @media screen and (max-width: 500px) {
-.pics{
-      text-align: center;
-      display: inline-block;
-      position:relative;
-      padding: 0;
-      margin-left:auto;
-      margin-right:auto;
-      margin-top: 20px;
-      text-align:center;
+.projects h2
+{
+  padding-top: 25px;
+  color: #bbb  ;
+  font-size: 50px;
+  text-align: center;
+  font-weight:lighter;
+
+}
+.projects h3
+{
+  padding-top: 25px;
+  color: #66FCF1  ;
+  font-size: 35px;
+  text-align: center;
+}
+.projects p
+{
+  padding-top: 25px;
+  color: #66FCF1  ;
+  font-size: 20px;
+  text-align: left;
+  line-height: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.column-project
+{
+  width: 50%;
+  float: left;
+}
+
+.social
+{
+  background-color: #1f2833;
+  color: #bbb;
+}
+.row
+{
+  padding-top: 50px;
+  text-align: center;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: inline-block;
   }
-.pics img{
-      height: 400px;
-      width: 300px;
-      vertical-align: center;
-  }
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#insta
+{
+  color: #bbb;
+}
+#insta:hover
+{
+  color: #66FCF1;
 }

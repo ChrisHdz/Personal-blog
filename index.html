@@ -1,39 +1,118 @@
 <!DOCTYPE HTML>
+<html>
+
+
 <head>
   <title>Christian J. Hernandez</title>
   <link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 
+
 <body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <header>
     <div class="row">
       <ul class="main-nav">
         <li class="active"><a href="">HOME</a></li>
-        <li><a href="">ABOUT ME</a></li>
-        <li><a href="">SKILLS</a></li>
-        <li><a href="">MY PROJECTS</a></li>
+        <li><a href="#skill">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
       </div>
+
     <div class="hero">
-      <h1>Christian Hernandez</h1>
-        <h4>Changing the world one problem at a time</h4>
+      <div class="container">
+          <div class="col-lg-6 col-md-6  col-sm-12">
+            <img src="images/heroself.png" alt="">
+
+          </div>
+          <div class="col-lg-6 col-md-6  col-sm-12" >
+            <h4>Hello, I'm Christian</h4>
+            <p>Just another developer looking for the missing semicolon.
+              Mostly driven by challenges and fun to build projects.
+              Follow me and watch me build the web and make the world an
+               easier place to be one problem at a time.</p>
+          </div>
+        </div>
     </div>
   </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Just another developer looking for the missing semicolon. Mostly driven by
-    challenges and fun to build proyects. Keep in touch with me!</p>
-    <div class="pics">
-      <img src="insta.png" align="middle">
-      <img src="git.png" align="middle">
-      <img src="hackerrank.png" align="middle">
+  <section class="skill">
+    <h2>Some things I am good at</h2>
+    <div class="container">
+        <div class="col-lg-6 col-md-6  col-sm-12">
+          <p>HTML</p>
+        <div class="containerb">
+          <div class="skills html">90%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="containerb">
+          <div class="skills css">80%</div>
+        </div>
+
+        <p>Java</p>
+        <div class="containerb">
+          <div class="skills java">65%</div>
+        </div>
+
+        <p>C++</p>
+        <div class="containerb">
+          <div class="skills cpp">60%</div>
+        </div>
+        </div>
+
+        <div class="gallery" class="col-lg-6 col-md-6  col-sm-12" >
+          <img src="images/css-3.png" alt="" width="100">
+          <img src="images/html-5.png" alt="" width="100">
+          <img src="images/java.png" alt="" width="100">
+          <img src="images/cpp.png" alt="" width="100">
+          <img src="images/python.png" alt="" width="100">
+          <img src="images/github-logo-white.png" alt="" width="100">
+          <img src="images/excel.png" alt="" width="100">
+          <img src="images/fireworks.png" alt="" width="100">
+          <img src="images/wordpress.png" alt="" width="100">
+        </div>
+      </div>
+  </section>
+
+
+  <section id ="my_projects" class="projects">
+    <h2 >Some of my work</h2>
+    <div class="row">
+      <div class="column-project">
+          <a href="https://slothlearning.com/"><img src="images/slothlearning.png" width="500"></a>
+      </div>
+      <div class="column-project">
+        <h3> <strong>Sloth</strong>Learning.com</h3>
+        <p>Gallery of homework and projects built through the years and
+          third party calculator for GPA from CalculateStuff.com.
+          Great chance to implement Google AdSense and Amazon Affiliate
+          programme. Check it out!  </p>
+      </div>
     </div>
+
+
   </section>
 
-  <section>
-    <h2>My Skills</h2>
-  </section>
 
+  <section class="social">
+    <div class="row">
+      <div class="column">
+      <img src="images/bye.png" alt="">
+      </div>
+
+        <div class="column">
+            <a href="https://www.instagram.com/chrishdzruiz/"><img src="images/insta.png" width="50" ></a> <h2 id="insta">@chrishdzruiz</h2>
+            <a href="https://github.com/ChrisHdz">  <img src="images/github-logo-white.png"  width="50"></a><h2 id="insta">ChrisHdz</h2>
+            <a href="https://www.hackerrank.com/christian_j_hdz?hr_r=1"><img src="images/hackerrank.png"  width="50"></a><h2 id="insta">chrishdzruiz</h2>
+        </div>
+
+        <div class="column" >
+          <img src="images/email.png" alt="" width="200"><a href="mailto:christian.hernandez19@upr.edu"><h2 id="insta"> christian.hernandez19@upr.edu</h2></a>
+        </div>
+      </div>
+  </section>
 </body>
+</html>
