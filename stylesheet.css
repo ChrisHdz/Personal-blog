@@ -62,7 +62,7 @@ header
 {
   padding-top: 80px;
   font-size: 40px;
-  color: #66FCF1
+  color: #bbb
 }
 .hero p
 {
@@ -71,6 +71,7 @@ header
   font-weight: lighter;
   font-family: monospace;
   text-align: left;
+  text-align: center;
 }
 
 /* Make sure that padding behaves as expected */
@@ -118,7 +119,8 @@ header
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 5vw);
-  grid-gap: 15px;
+  grid-gap: 20px;
+  grid-row-gap: 60px;
 }
 .projects
 {
@@ -145,14 +147,14 @@ header
 .projects h3
 {
   padding-top: 25px;
-  color: #66FCF1  ;
+  color: #bbb  ;
   font-size: 35px;
   text-align: center;
 }
 .projects p
 {
   padding-top: 25px;
-  color: #66FCF1  ;
+  color: #bbb  ;
   font-size: 20px;
   text-align: left;
   line-height: 50px;
@@ -201,5 +203,5 @@ header
 }
 #insta:hover
 {
-  color: #66FCF1;
+  color: #bbb;
 }
