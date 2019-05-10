@@ -6,7 +6,7 @@
 
 header
 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(images/PR.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/PR.jpg);
   height: 75vh;
   background-size: cover;
   background-position: center;
@@ -124,7 +124,7 @@ header
 }
 .projects
 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(images/PR2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/PR2.jpg);
   height: 75vh;
   background-size: cover;
   background-position: center;
